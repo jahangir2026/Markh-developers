@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: lightblue;
+}
+.container {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 480px;
+    padding: 30px;
+    width: 440px;
+    background-color: rgb(147, 147, 241);
+}
+
+.container h1 {
+    font-size: 30px;
+    font-weight: 500;
+   color: #222;
+   text-align: center;
+    margin: 20px 0 40px 0;
+}
+
+.container .input-box  {
+    position: relative;
+    width:  90%;
+    height: 60px;
+    margin: 15px 0;
+    border-radius: 30px;
+    box-shadow: 0 5px 10px 1px rgb(0,0,0, 0.05); 
+   
+    transition: .3s;
+
+}
+
+.input-box input {
+    height: 100%;
+    outline: none;
+    width: 100%;
+    font-size: 17px;
+    padding: 0 25px;
+    background: white; 
+    border-radius: 40px;
+    border: none;
+}
+
+::placeholder{
+    font-weight: 500;
+    color: #222;
+}
+.input-field:focus {
+    width: 105%;
+}
+.forgot {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+section {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+}
+#check {
+    margin-right: 10px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+
+}
+section a {
+    color: #555;
+}
+.input-btn {
+    position: relative;
+}
+.signin-btn {
+    width: 100%;
+    height: 60px;
+    background: #222;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+.input-btn label{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    color: #fff;
+    -webkit-transform: translate(-50% , -50%);
+    -ms-transform: translate(-50% , -50%);
+    transform: translate(-50% , -50%);
+    cursor: pointer;
+}
+.input-btn:hover {
+    background: #222;
+    transform: scale(1.05,1);
+}
