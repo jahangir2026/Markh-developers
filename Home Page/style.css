@@ -1,0 +1,166 @@
+
+* {
+    height: 0px;
+    margin: 0px;
+    font-family: "Poppins", serif;
+}
+.container  {
+    background-color: black;
+    height: 70vh;
+    width: 83.9rem;
+    
+}
+.container h1 {
+    padding: 20px;
+}
+.nav-bar {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar a {
+    padding: 13px;
+    width: 7.5rem;
+    text-decoration: none;
+    color:white;
+}
+ .nav-bar :hover {
+    font-size: 1.2em;
+    transition: 0.4s;
+    color: red;
+} 
+.info {
+    padding: 130px;
+    color: red;
+}
+.info h1 {
+    font-size: 40px;
+}
+.info p {
+    margin: 35px 0 0 0;
+    color: white;
+    font-size: 30px;
+    padding-left: 35px;
+}
+.head-img img{
+    width: 100%;
+    height: 9rem;
+}
+
+.product-section p {
+    display: flex;
+    justify-content: center;
+    font-size: 33px;
+    font-weight: 600;
+    padding: 40px;
+}
+.product-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 100px;
+}
+.brand {
+    font-size: 20px;
+    color: rgb(202, 193, 193);
+}
+.product-Name {
+    padding-top: 33px;
+    font-weight: 900;
+}
+.price {
+    padding-top: 35px;
+    font-weight: 750;
+    font-size: 20px;
+}
+
+.card {
+    width: 269px;
+    margin: 155px 23px 127px 20px;
+    padding: 30px;
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.feature h1 {
+    padding-top: 206px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+.feature p {
+    margin-top: 50px;
+    font-weight: 600;
+}
+
+.feature-img img{
+    height: auto;
+    padding-top: 20rem;
+} 
+
+.footer {
+    height: 100px;
+    width: 100%;
+    margin-top: 170px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.footer .nav {
+    text-decoration: none;
+    padding: 40px;
+    color: white;
+}
+.contact-header img {
+    height: auto;
+}
+.contact-header h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+
+.footer-div a {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
+
+#contact {
+    padding: 60px 20px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 35px;
+}
+
+input, textarea {
+    margin-bottom: 19px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 20px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: red;
+}
